@@ -15,6 +15,48 @@ function getMedicine() {
         case "Diabetes":
             medicine = "Metformin, Insulin, Glipizide";
             break;
+             case "night blindness":
+                      medicine= "inlazer ayurvedic";
+                     break;
+                case "anemia":
+                     medicine="ferrous sulphate";
+                     break;
+                case "aniexty":
+                     medicine= "alprazolam,temazepam";
+                     break;
+                case "asthma":
+                     medicine= "montelukast,zafirlukast,zileuton";
+                     break;
+                case "hypersomnia":
+                     mediine= "sodium oxybate,clarithromycim";
+                     break;
+                case "sleep walking":
+                     medicine= "estazolam,klonopin,oleptro";
+                     break;
+                case "stomachahes":
+                     medicine= "hyoscinebutyl bromide,simethicone,magnesium hydroxide";
+                     break;
+                case "chickenpox":
+                     medicine= "acyclobir(zovirax sitavig)";
+                     break;
+                case "alergies":
+                     medicine= "cepirizine,bromphenir amine,claripin-d";
+                     break;
+                case "body pains":
+                     medicine= "acetaminophen,aspiran,norphine,tramadol";
+                     break;
+                case "throatt pain":
+                     medicine= "diuprofem";
+                     break;
+                case "thyroid":
+                     medicine= "levothyroxine";
+                     break;
+                case "cough":
+                     medicine= "delsym cough+chestcongestion,azithromycin";
+                     break;
+                case "sinus":
+                      medicine= "amoxocillin,azithromycin dose pack,prednisone";
+                    break;  
         default:
             medicine = "Consult a doctor for the best recommendation.";
     }
