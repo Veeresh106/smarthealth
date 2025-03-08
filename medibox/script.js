@@ -1,23 +1,68 @@
 function getMedicine() {
     const disease = document.getElementById("disease").value;
     let medicine;
-
-    switch (disease) {
-        case "Cold":
-            medicine = "Paracetamol, Antihistamines, Decongestants";
-            break;
-        case "Flu":
-            medicine = "Tamiflu, Ibuprofen, Rest and Hydration";
-            break;
-        case "Headache":
-            medicine = "Ibuprofen, Acetaminophen, Aspirin";
-            break;
-        case "Diabetes":
-            medicine = "Metformin, Insulin, Glipizide";
-            break;
-        default:
-            medicine = "Consult a doctor for the best recommendation.";
-    }
+         switch (disease) {
+                 case "Cold":
+                     medicine = "Paracetamol, Antihistamines, Decongestants";
+                     break;
+                case "Fever":
+                     medicine="paracetamol,dolo 650";
+                     break;
+                case "Flu":
+                     medicine = "Tamiflu, Ibuprofen, Rest and Hydration";
+                     break;
+                case "Headache":
+                     medicine = "Ibuprofen, Acetaminophen, Aspirin";
+                     break;
+                case "Diabetes":
+                     medicine = "Metformin, Insulin, Glipizide";
+                     break;
+                case "night blindness":
+                      medicine= "inlazer ayurvedic";
+                     break;
+                case "anemia":
+                     medicine="ferrous sulphate";
+                     break;
+                case "aniexty":
+                     medicine= "alprazolam,temazepam";
+                     break;
+                case "asthma":
+                     medicine= "montelukast,zafirlukast,zileuton";
+                     break;
+                case "hypersomnia":
+                     mediine= "sodium oxybate,clarithromycim";
+                     break;
+                case "sleep walking":
+                     medicine= "estazolam,klonopin,oleptro";
+                     break;
+                case "stomachahes":
+                     medicine= "hyoscinebutyl bromide,simethicone,magnesium hydroxide";
+                     break;
+                case "chickenpok":
+                     medicine= "acyclobir(zovirax sitavig)";
+                     break;
+                case "alergies":
+                     medicine= "cepirizine,bromphenir amine,claripin-d";
+                     break;
+                case "body pains":
+                     medicine= "acetaminophen,aspiran,norphine,tramadol";
+                     break;
+                case "throatt pain":
+                     medicine= "diuprofem";
+                     break;
+                case "thyroid":
+                     medicine= "levothyroxine";
+                     break;
+                case "cough":
+                     medicine= "delsym cough+chestcongestion,azithromycin";
+                     break;
+                case "sinus":
+                      medicine= "amoxocillin,azithromycin dose pack,prednisone";
+                    break;  
+                default:
+                  medicine = "Consult a doctor for the best recommendation.";
+             }
+        
 
     // Open a new window to display the medicine recommendation
     const newWindow = window.open("", "_blank");
